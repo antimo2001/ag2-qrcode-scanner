@@ -5,6 +5,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Packaged folder
+ag2-*
+
 # Runtime data
 pids
 *.pid
