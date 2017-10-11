@@ -1,0 +1,1 @@
+.\ag2-qrcode-scanner-win32-x64\ag2-qrcode-scanner.exe
