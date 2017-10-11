@@ -6,7 +6,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # Packaged folder
-#ag2-*
+ag2-*
 
 # Runtime data
 pids
