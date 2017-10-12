@@ -12,6 +12,5 @@ This repo contains a desktop app (using electron and electron-cli) to scan a QRC
 git clone https://github.com/antimo2001/ag2-qrcode-scanner.git
 cd ag2-qrcode-scanner
 npm install
-## use npm start or electron .
 npm start
 ```

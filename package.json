@@ -9,7 +9,7 @@
     "clean": "rm -rf dist &&  mkdir dist",
     "build": "npm run clean &&  npm run pack &&  ls -l dist"
   },
-  "keywords": ["QRCode","Scanner", "Electron"],
+  "keywords": ["QRCode","Scanner","Electron","electron-cli"],
   "main": "main.js",
   "repository": "https://github.com/antimo2001/ag2-qrcode-scanner.git",
   "license": "MIT",
