@@ -1,15 +1,23 @@
 {
   "name": "ag2-qrcode-scanner",
-  "dependencies": {
-    "electron": "^1.8.1",
-    "qrcode-reader.js": "^1.0.3"
-  },
+  "description": "yet-another-qrcode-scanner-for-desktop",
+  "version": "0.0.1",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "electron-cli": "electron-cli",
+    "pack": "mkdir dist &&  npm run electron-cli pack &&  mv -f ag2-qrcode-scanner* dist/",
+    "clean": "rm -rf dist",
+    "build": "npm run clean &&  npm run pack  && ls -l dist"
   },
   "main": "main.js",
-  "version": "0.0.0",
+  "repository": "https://github.com/antimo2001/ag2-qrcode-scanner.git",
   "license": "MIT",
-  "description": "yet-another-qrcode-scanner-for-desktop-hahaha",
-  "author": "antimo2001"
+  "author": "antimo2001",
+  "dependencies": {
+    "electron": "^1.8.1",
+    "qrcode-reader.js": "1.0.3"
+  },
+  "devDependencies": {
+    "electron-cli": "0.2.8"
+  }
 }
