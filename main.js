@@ -7,8 +7,9 @@ const url = require('url')
 let win
 
 function createWindow () {
+  const sizeFactor = 2;
   // Create the browser window.
-  win = new BrowserWindow({width: 800, height: 600})
+  win = new BrowserWindow({width: 800*sizeFactor, height: 600*sizeFactor})
 
   // and load the index.html of the app.
   win.loadURL(url.format({
