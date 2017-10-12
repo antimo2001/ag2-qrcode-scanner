@@ -5,9 +5,9 @@
   "scripts": {
     "start": "electron .",
     "electron-cli": "electron-cli",
-    "pack": "mkdir dist &&  npm run electron-cli pack &&  mv -f ag2-qrcode-scanner* dist/",
-    "clean": "rm -rf dist",
-    "build": "npm run clean &&  npm run pack  && ls -l dist"
+    "pack": "npm run electron-cli pack &&  echo \"...Done packaging\" &&  mv -f ag2-qrcode-scanner* dist/",
+    "clean": "rm -rf dist &&  mkdir dist",
+    "build": "npm run clean &&  npm run pack &&  ls -l dist"
   },
   "keywords": ["QRCode","Scanner", "Electron"],
   "main": "main.js",
